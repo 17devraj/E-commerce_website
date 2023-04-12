@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart</title>
+  <style>
+    .container {
+      width: 170px;
+      height: 180px;
+      background-color: rgb(32, 181, 32);
+      border-radius: 15px;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .title {
+      color: white;
+      background-color: grey;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      font-family: sans-serif;
+      font-size: 20px;
+      padding: 5px;
+    }
+    /* .img {
+        background-color: blue;
+      } */
+    .shoe-img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .flex-box {
+      display: flex;
+      justify-content: space-around;
+    }
+    #input {
+      width: 90px;
+    }
+    .plus,
+    .minus {
+      background: transparent;
+      border: none;
+      font-size: 18px;
+    }
+    .plus {
+      color: rgb(23, 23, 203);
+    }
+
+    .minus {
+      color: rgb(193, 39, 39);
+    }
+    .cart {
+      background-color: yellow;
+      padding: 7px;
+      border: 2px solid black;
+      font-size: 10px;
+      border-radius: 7px;
+      margin-top: 10px;
+    }
+    .cart:hover{
+         /* background-color: grey; */
+         transform: scale(1.1);
+      }
+     .plus:hover{
+        transform: scale(1.5);
+     } 
+     .minus:hover{
+        transform: scale(1.5);
+     } 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="title">Black Formal</h2>
+    <div class="img">
+      <img src="shoe.jpg" alt="Shoe" class="shoe-img" />
+    </div>
+    <div class="flex-box">
+      <input type="button" class="plus" onclick="incrementValue()" value="+"/>
+      <input type="number" id="input" min="0" placeholder="Quantity"/>
+      <input type="button" class="minus" onclick="decrementvalue()" value="-"/>
+    </div>
+    <input type="submit" class="cart" value="Add to Cart">
+  </div>
+  <script>
+    function incrementValue()
+    {
+      var value = parseInt(document.getElementById('input').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value++;
+      document.getElementById('input').value = value;
+    }
+    function decrementvalue()
+    {
+      var value = parseInt(document.getElementById('input').value, 10);
+      value = isNaN(value) ? 0 : value;
+      value--;
+      document.getElementById('input').value = value;
+    }
+  </script>
+</body>
+</html>
