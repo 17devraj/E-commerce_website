@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Upload products</title>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+
+            .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background: rgb(52, 52, 52);
+            }
+
+            .main{
+                background: rgb(27, 38, 139);
+                color: rgb(255, 255, 255);
+                height: 55%;
+                border: 2px solid black;
+                border-radius: 5px;
+            }
+        </style>
+	</head>
+	<body>
+        <div class="container">
+            <form class="main" action="upload_products.php" method="post" enctype="multipart/form-data">
+                <label for="name">Product name</label>
+                <input type="text" name="name"><br>
+                <label for="details">Product details</label>
+                <textarea name="details"></textarea><br>
+                <label for="price">Product price</label>
+                <input type="number" name="price"><br>
+                <input type="file" name="imgfile"><br>
+                <input type="submit" value="upload">
+            </form>
+        </div>
+    </body>
+</html>
