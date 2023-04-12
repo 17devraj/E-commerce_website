@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration</title>
+        <style>
+			*{
+				margin: 0%;
+				padding: 0%;
+			}
+
+			.container{
+                display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				background: rgb(194, 51, 51);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+        <form  class="main" action="registration.php" method="POST">
+            <label for="username">Username</label><br>
+			<input type="text" name="username"><br>
+			<label for="mobile">Mobile no.</label><br>
+			<input type="text" name="mobile"><br>
+			<label for="password1">Password</label><br>
+			<input type="password" name="password1"><br>
+			<label for="password2">Re-type password</label><br>
+			<input type="password" name="password2"><br>
+			<input  class="btn" type="submit" value="Register">
+        </form>
+	</div>
+    </body>
+</html>
