@@ -70,9 +70,5 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 - Introduce user profile customization.
 
 ## 👨‍💻 Author
-**Dev Parmar**  
-[LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
-
-## 📝 License
-This project is licensed under the [MIT License](LICENSE).
+**Devraj Parmar**  | [GitHub](https://github.com/yourusername)
 
