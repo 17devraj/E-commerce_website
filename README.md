@@ -70,5 +70,5 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 - Introduce user profile customization.
 
 ## 👨‍💻 Author
-**Devraj Parmar**  | [GitHub](https://github.com/yourusername)
+**Devraj Parmar**  | [LinkedIn](https://www.linkedin.com/in/devraj-parmar/)
 
