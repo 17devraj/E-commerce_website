@@ -30,9 +30,16 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 │   ├── delete_products.php
 │   └── data.php
 ├── client
-│   ├── index.php
-│   ├── product-details.php
-│   └── checkout.php
+│   ├── login.html
+│   ├── login.php
+│   ├── logout.php
+│   ├── registration.html
+│   ├── registration.php
+│   ├── validate_login.php
+│   ├── view_products.php
+│   ├── viewcart.php
+│   ├── addtocart.php
+│   └── placeorder.php
 ├── includes
 │   ├── dbconnect.php
 │   ├── header.php
