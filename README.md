@@ -22,9 +22,13 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 │   ├── js
 │   └── images
 ├── admin
-│   ├── dashboard.php
-│   ├── manage-products.php
-│   └── orders.php
+│   ├── login.html
+│   ├── login.php
+│   ├── upload_products.html
+│   ├── upload_products.php
+│   ├── view_products.php
+│   ├── delete_products.php
+│   └── data.php
 ├── client
 │   ├── index.php
 │   ├── product-details.php
