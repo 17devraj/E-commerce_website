@@ -17,6 +17,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 ## 📂 Project Structure
 ```
 ├── assets
+│   ├── html
 │   ├── css
 │   ├── js
 │   └── images
@@ -24,7 +25,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 │   ├── dashboard.php
 │   ├── manage-products.php
 │   └── orders.php
-├── user
+├── client
 │   ├── index.php
 │   ├── product-details.php
 │   └── checkout.php
