@@ -40,19 +40,13 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 │   ├── viewcart.php
 │   ├── addtocart.php
 │   └── placeorder.php
-├── includes
-│   ├── dbconnect.php
-│   ├── header.php
-│   └── footer.php
-├── .env
-├── README.md
-└── index.php
+└── README.md
 ```
 
 ## ⚙️ Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/ecommerce-website.git
+   git clone https://github.com/17devraj/ecommerce-website.git
    ```
 
 2. **Setup Database:**
@@ -60,7 +54,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
    - Import the provided `database.sql` file.
 
 3. **Configure Database Connection:**
-   - Edit the `dbconnect.php` file with your database credentials.
+   - Edit the `data.php` file with your database credentials.
 
 4. **Start the Server:**
    ```bash
@@ -68,8 +62,8 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
    ```
 
 5. **Access the Project:**
-   - **User Login:** `/user/index.php`
-   - **Admin Login:** `/admin/dashboard.php`
+   - **User Login:** `/client/login.php`
+   - **Admin Login:** `/admin/login.php`
 
 ## 📸 Screenshots
 | **User Dashboard** | **Admin Panel** |
