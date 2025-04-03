@@ -68,7 +68,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 ## 📸 Screenshots
 | **User Dashboard** | **Admin Panel** |
 |:-------------------:|:----------------:|
-| ![User Dashboard](assets/images/user_dashboard.png) | ![Admin Panel](assets/images/admin_dashboard.png) |
+| ![User Dashboard](assets/images/user_dashboard.png) | ![Admin Panel](admin_pannel.png) |
 
 ## 🔮 Future Improvements
 - Implement product search functionality.
