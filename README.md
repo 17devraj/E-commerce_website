@@ -14,7 +14,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 - **Backend:** PHP
 - **Database:** MySQL
 
-## 📂 Project Structure
+## 📂 Repository Structure
 ```
 ├── assets
 │   ├── html
@@ -43,7 +43,7 @@ An interactive and user-friendly E-Commerce platform developed during my Full St
 └── README.md
 ```
 
-## ⚙️ Installation
+## ⚙️ Installation & Setup
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/17devraj/ecommerce-website.git
